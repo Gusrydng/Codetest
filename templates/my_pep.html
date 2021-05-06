@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PEP</title>
+	</head>
+	<body>
+		<form action="http://localhost:5000/"  method="post">
+			<p>PEP ME</p>
+			<p><input type="submit" value="pep"/></p>
+            {% if name != '' %}
+            <h1>{{name}}</h1>
+            {%endif %}
+		</form>
+	</body>
+</html>
+
